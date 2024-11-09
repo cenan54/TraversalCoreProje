@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IAobut2Dal:IGenericDal<About2>
+    public interface IAbout2Dal:IGenericDal<About2>
     {
     }
 }

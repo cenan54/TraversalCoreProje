@@ -17,7 +17,7 @@ namespace DataAccessLayer.Repository
             c.Remove(t);
             c.SaveChanges();
         }
-
+        
         public List<T> GetList()
         {
             using var c = new Context();
